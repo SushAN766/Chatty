@@ -1,17 +1,9 @@
 <p align="center">
-  <img src="frontend\public\chatty-banner.png" alt="Chatty Banner" width="100%">
+  <strong>Chatty — Secure Real-Time Messenger with AES Encryption </strong>
 </p>
 
-<p align="center">
-<strong>Chatty</strong> is a modern real-time messaging application built using the <strong>MERN stack</strong>, powered by <strong>Socket.io</strong>, and styled with <strong>TailwindCSS + DaisyUI</strong>.<br>
-It supports <strong>JWT authentication</strong>, <strong>real-time messaging</strong>, <strong>online presence</strong>, <strong>image uploads</strong>, and <strong>AES-256 database-level encryption</strong> for secure message storage.
-</p>
-
-
-
-![Demo App]()
-
-
+**Chatty** is a modern real-time messaging application built using the **MERN stack**, powered by **Socket.io**, and styled with **TailwindCSS + DaisyUI**.  
+It supports **JWT authentication**, **real-time messaging**, **online presence**, **image uploads**, and **AES-256 database-level encryption** for secure message storage.
 
 
 ---
