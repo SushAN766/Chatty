@@ -58,7 +58,10 @@ https://cloudinary.com/.../image.jpg
 - Perfect for secure messaging applications
 ---
 
+## System Overview:
+![System Overview](https://github.com/SushAN766/Chatty/blob/main/frontend/public/Chatty Architecture.jpg)
 
+---
 ##  Tech Stack
 
 ### **Frontend**
