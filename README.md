@@ -59,7 +59,7 @@ https://cloudinary.com/.../image.jpg
 ---
 
 ## System Overview:
-![System Overview](https://github.com/SushAN766/Chatty/blob/main/frontend/public/Chatty Architecture.jpg)
+![System Overview](https://github.com/SushAN766/Chatty/blob/main/frontend/public/ChattyArchitecture.jpg)
 
 ---
 ##  Tech Stack
