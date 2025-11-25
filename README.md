@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Chatty — Secure Real-Time Messenger with AES Encryption </strong>
+  Chatty — Secure Real-Time Messenger with AES Encryption 
 </p>
 
 **Chatty** is a modern real-time messaging application built using the **MERN stack**, powered by **Socket.io**, and styled with **TailwindCSS + DaisyUI**.  
