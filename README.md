@@ -1,6 +1,7 @@
-<p align="center">
-  Chatty — Secure Real-Time Messenger with AES Encryption 
-</p>
+<h2 align="center">
+  Chatty — Secure Real-Time Messenger
+</h2>
+
 
 **Chatty** is a modern real-time messaging application built using the **MERN stack**, powered by **Socket.io**, and styled with **TailwindCSS + DaisyUI**.  
 It supports **JWT authentication**, **real-time messaging**, **online presence**, **image uploads**, and **AES-256 database-level encryption** for secure message storage.
