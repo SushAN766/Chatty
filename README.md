@@ -1,9 +1,16 @@
-# Chatty - Real Time Messenger
+<p align="center">
+  <img src="/chatty-banner.png" alt="Chatty Banner" width="100%">
+</p>
+
+<p align="center">
+**Chatty** is a modern real-time messaging application built using the **MERN stack**, powered by **Socket.io**, and styled with **TailwindCSS + DaisyUI**.  
+It supports **JWT authentication**, **real-time messaging**, **online presence**, **image uploads**, and **AES-256 database-level encryption** for secure message storage.
+</p>
+
 
 ![Demo App]()
 
-**Chatty** is a modern real-time messaging application built using the **MERN stack**, powered by **Socket.io**, and styled with **TailwindCSS + DaisyUI**.  
-It supports **JWT authentication**, **real-time messaging**, **online presence**, **image uploads**, and **AES-256 database-level encryption** for secure message storage.
+
 
 
 ---
@@ -24,25 +31,31 @@ It supports **JWT authentication**, **real-time messaging**, **online presence**
 
 ---
 
-## 🔐 Database-Level AES-256 Encryption
+## Encryption (Database-Level AES-256)
 
-Chatty ensures strong data security using **AES-256-CBC** encryption for all stored messages.
-
-### 🔒 What Gets Encrypted?
-
+Chatty uses **AES-256-CBC** encryption to protect:
 - Message text
 - Image URLs
-
-### 🗄 How Data Is Stored in MongoDB
-
-Messages are stored in the encrypted format:
-
+  
+ Messages stored in MongoDB are encrypted like this:
+```makefile
 iv:ciphertext
+```
 
-### 🔧 Example Encrypted Value
-
+ Example stored value:
 ```ruby
 dhtuzgm5dzd19jpgayaing==:tY+J/lmglkjaNM5llR94Qpz1fg...
+```
+ But the frontend still receives decrypted data, so users see:
+```ruby
+Hi
+https://cloudinary.com/.../image.jpg
+```
+
+- MongoDB never stores plaintext
+- Backend handles encryption & decryption
+- Perfect for secure messaging applications
+---
 
 
 ##  Tech Stack
@@ -123,16 +136,7 @@ npm start
 
 ---
 
-##  Encryption (AES-256)
 
-Chatty uses **AES-256-CBC** to encrypt:
-
-- Message text
-- Image URLs
-
-MongoDB stores only **encrypted values**, while the backend decrypts data before sending it to the client.
-
----
 ##  Real-Time Flow (Socket.io)
 
 - User logs in → frontend sends `userId` in handshake  
